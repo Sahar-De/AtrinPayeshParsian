@@ -1,5 +1,5 @@
-import React from 'react'
-import serviceData from '../service.json';
+import React from "react"
+import serviceData from "../service.json";
 import { FaHelmetSafety } from "react-icons/fa6";
 
 const ServiceDetails = ({id}) => {
@@ -8,12 +8,12 @@ const ServiceDetails = ({id}) => {
   const filterData=id!==null?serviceData.filter(item=>item.parentId===id):serviceData.filter(item=>item.parentId=="");
 
   return (
-    <div className='flex flex-wrap container items-center gap-y-5 justify-around py-5'>
+    <div className="flex flex-wrap container items-center gap-y-5 justify-around py-5">
        {filterData.map((item,index)=>{
         return (
           <div key={index} className="flex bg-gray-100 sm:w-full md:w-1/3 mb-8 md:mb-0 p-5 shadow-md rounded-xl mr-3 ml-3">
     <div className="w-full text-right">
-      <h6 className='text-black font-semibold text-lg'>{item.name}</h6>
+      <h6 className="text-black font-semibold text-lg">{item.name}</h6>
       <p className="text-md text-gray-800 text-right leading-normal mb-5 font-lf-normal">
         I had a great experience at Joe's Diner. The service was top-notch and the
         food was delicious.
