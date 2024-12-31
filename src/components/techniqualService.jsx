@@ -12,13 +12,13 @@ const Techniqual = ({servicInfo}) => {
 
       <div className="w-full flex flex-col md:flex-row py-4">
         <div className="w-full md:w-[90%] mx-auto flex flex-col md:flex-row">
-           <div className="w-full relative md:w-1/2 items-center h-auto md:py-12 flex rounded">
-              <div className="absolute z-30 bg-gray-300 w-[85%] h-[70%] right-0  bg-[url('../../public/assets/hse2.jpg')] bg-no-repeat bg-cover">
+           <div className="w-full relative md:w-1/2 items-center h-auto md:py-12 flex rounded-md">
+              <div className="absolute z-30 bg-gray-300 rounded-md w-[85%] h-[70%] right-0  bg-[url('../../public/assets/hse2.jpg')] bg-no-repeat bg-cover">
                  &nbsp;
               </div>
-              <div className="relative left-0 rounded z-20 bg-accent-hover w-[90%] min-h-64">
+              <div className="relative left-0 rounded z-20 bg-accent w-[90%] min-h-64">
                   <div className="relative rounded w-[12%] min-h-64 [writing-mode:vertical-lr] text-2xl rotate-180 text-white py-20 text-center">
-                   خدمات ارائه شده
+                   Techniqual Services
                   </div>
               </div>
             </div>

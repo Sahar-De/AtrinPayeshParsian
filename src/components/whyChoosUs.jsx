@@ -29,7 +29,7 @@ const WhyUs = () => {
                 </div>
             </div>
                 <div className="mt-12  border-4  md:mt-10 bg-[url('../../public/assets/hseHeader.jpg')] shadow-lg h-72 bg-cover bg-no-repeat relative rounded">
-                    <motion.div viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1}} transition={{delay:0.2, duration:0.3, easeInOut}} className='hidden sm:block h-[197px] w-[240px] bg-accent-hover shadow-xl -top-1/4 left-40 xl:left-1/2 rounded relative'>
+                    <motion.div viewport={{once:true}} initial={{scale:0}} whileInView={{scale:1}} transition={{delay:0.2, duration:0.3, easeInOut}} className='hidden sm:block h-[200px] w-[240px] bg-accent-hover shadow-xl  xl:left-1/2  rounded relative'>
                         <div className="shadow-lg bg-[url('../../public/assets/640-orange-safety-hat-with-message-safety-first-hard-hat-isolated-on-white-background.jpg')] bg-no-repeat bg-cover absolute size-64 rounded -top-1/3 -right-6">
 
                         </div>
