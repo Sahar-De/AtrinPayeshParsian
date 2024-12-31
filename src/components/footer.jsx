@@ -1,7 +1,7 @@
 
-import React from 'react'
-import logo from '../../public/assets/Atrin-logo_prev_ui.png'
-import Image from 'next/image'
+import React from "react"
+import logo from "../../public/assets/Atrin-logo_prev_ui.png"
+import Image from "next/image"
 
 const Footer = () => {
   return (

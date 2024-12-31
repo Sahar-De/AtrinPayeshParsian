@@ -1,6 +1,6 @@
 "use client"
 
-import React from 'react'
+import React from "react"
 import { FaHeartbeat } from "react-icons/fa";
 import { FaEarthAfrica } from "react-icons/fa6";
 import { FaHelmetSafety } from "react-icons/fa6";

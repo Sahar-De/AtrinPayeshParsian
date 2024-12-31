@@ -1,5 +1,5 @@
 import Link from "next/link"
-import {FaLinkedin, FaTelegram, FaWhatsapp } from 'react-icons/fa'
+import {FaLinkedin, FaTelegram, FaWhatsapp } from "react-icons/fa"
 
 const socialArr=[
     {icon:<FaLinkedin/>,path:""},

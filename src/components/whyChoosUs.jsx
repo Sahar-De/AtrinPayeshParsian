@@ -1,9 +1,8 @@
 "use client"
 
-import React from 'react'
-import pic from '../../public/assets/hseHeader.jpg'
-import { delay, easeInOut, motion } from 'framer-motion'
-import { Scale } from 'lucide-react'
+import React from "react"
+import { delay, easeInOut, motion } from "framer-motion"
+
 
 const WhyUs = () => {
   return (

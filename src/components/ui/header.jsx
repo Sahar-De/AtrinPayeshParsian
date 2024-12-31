@@ -4,8 +4,8 @@
 import React from "react";
 import Link from "next/link";
 import Nav from "../navbar";
-import Image from 'next/image'
-import logo from '../../../public/assets/Atrin-logo_prev_ui.png'
+import Image from "next/image"
+import logo from "../../../public/assets/Atrin-logo_prev_ui.png"
 import MobileNav from "../mobileNav";
 import Socials from "../socials";
 import { delay, easeInOut, motion } from "framer-motion";
@@ -67,7 +67,7 @@ const Header=()=>{
         <div className="container mx-auto flex gap-4  items-center justify-between">
             {/*logo  */}
             <motion.div initial={{opacity:0 , x:-40}} animate={{opacity:1, x:1}} transition={{duration:0.5, delay:1.5 ,easeIn:"easeIn" }}>
-            <Link href='/' className="flex items-center gap-2">
+            <Link href="/" className="flex items-center gap-2">
             <Image
                     alt="" 
                     src={logo}

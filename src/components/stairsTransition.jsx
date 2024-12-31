@@ -1,6 +1,6 @@
 "use client";
 import {AnimatePresence, delay, motion} from "framer-motion"
-import { usePathname } from 'next/navigation';
+import { usePathname } from "next/navigation";
 import Stairs from "./stairs";
 
 
@@ -11,7 +11,7 @@ export default function StairTransition({children}) {
 
     return (
         <>
-            <AnimatePresence mode='wait'>
+            <AnimatePresence mode="wait">
                 <div key={pathname}>
                     <div className="h-screen  w-screen fixed top-0 left-0 right-0 pointer-events-none z-40 flex ">
                         <Stairs/>

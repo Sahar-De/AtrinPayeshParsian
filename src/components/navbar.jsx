@@ -5,20 +5,20 @@ import { usePathname } from "next/navigation";
 
 const links=[
     {
-        name:'صفحه نخست',
-        path:'/',
+        name:"صفحه نخست",
+        path:"/",
     },
     {
-        name:'درباره ما',
-        path:'/about',
+        name:"درباره ما",
+        path:"/about",
     },
     {
-        name:' تماس با ما',
-        path:'/contact',
+        name:" تماس با ما",
+        path:"/contact",
     },
     {
-        name:'خدمات',
-        path:'/service',
+        name:"خدمات",
+        path:"/service",
     }
 ]
 

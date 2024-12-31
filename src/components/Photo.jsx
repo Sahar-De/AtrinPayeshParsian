@@ -1,8 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import Image from 'next/image'
-import ph5 from '../../public/assets/p11.png'
+import Image from "next/image"
+import ph5 from "../../public/assets/p11.png"
 
 const HeaderPhoto = () => {
   return (
