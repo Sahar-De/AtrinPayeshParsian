@@ -15,7 +15,7 @@ const ServiceDetails = ({id}) => {
     <div className="w-full text-right">
       <h6 className="text-black font-semibold text-lg">{item.name}</h6>
       <p className="text-md text-gray-800 text-right leading-normal mb-5 font-lf-normal">
-        I had a great experience at Joe's Diner. The service was top-notch and the
+        I had a great experience at Joes Diner. The service was top-notch and the
         food was delicious.
       </p>
       <span className="flex item-center">
