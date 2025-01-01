@@ -13,11 +13,12 @@ const Service=()=>{
 
    return(
      <div className="bg-accent">
-      <Suspense fallback={<div>Loading service details...</div>}>
+      {id?(<Suspense fallback={<div>Loading service details...</div>}>
         <ServiceDetails id={id}/>
-      </Suspense>
-        
-      </div>
-   )
+      </Suspense>):(
+        <div>No service ID provided.</div> // Handle case where id is not available
+      )} 
+    </div>
+    )
 }
 export default Service
