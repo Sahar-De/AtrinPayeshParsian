@@ -1,5 +1,5 @@
 import p from "../../../public/assets/h2.png"
-import Image from 'next/image'
+import Image from "next/image"
 
 
 
