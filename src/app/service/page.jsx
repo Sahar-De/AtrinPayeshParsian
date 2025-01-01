@@ -1,6 +1,7 @@
 "use client"
 
 import React from "react";
+import { Suspense } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSearchParams } from "next/navigation";
@@ -14,7 +15,10 @@ const Service=()=>{
 
    return(
      <div className="bg-accent">
+      <Suspense>
         <ServiceDetails id={id}/>
+      </Suspense>
+        
       </div>
    )
 }
