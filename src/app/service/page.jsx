@@ -2,8 +2,6 @@
 
 import React from "react";
 import { Suspense } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { useSearchParams } from "next/navigation";
 import ServiceDetails from "@/components/serviceDetail";
 
@@ -15,7 +13,7 @@ const Service=()=>{
 
    return(
      <div className="bg-accent">
-      <Suspense>
+      <Suspense fallback={<div>Loading service details...</div>}>
         <ServiceDetails id={id}/>
       </Suspense>
         
