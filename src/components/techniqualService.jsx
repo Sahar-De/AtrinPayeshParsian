@@ -28,21 +28,21 @@ const Techniqual = ({servicInfo}) => {
           {info[activeTabIndex].icon}
         </div>
         <div className="w-11/12 self-end">
-          <h1 className="text-3xl mt-2 pr-2 md:p-0  md:text-xl font-semibold text-gray-800 dark:text-white">
+          <h1 className="text-md mt-2 pr-2 md:p-0  md:text-xl font-semibold text-gray-800 dark:text-white">
            {info[activeTabIndex].title}
           </h1>
         </div>
       </div>
-      <div className="w-[95%] md:!w-[100%] xl:!w-[100%]">
+      <div className="w-[95%] md:!w-[100%] xl:!w-[100%] py-5">
         <p className="text-md text-dark mb-4 line-clamp-4 md:line-clamp-none dark:text-white">
           {info[activeTabIndex].desc}
         </p>
       </div>
-      <div className="flex flex-row-reverse w-full flex-wrap gap-1 justify-center md:justify-start">
+      <div className="flex flex-row-reverse w-full py-5 flex-wrap gap-x-1 gap-y-3 justify-center md:justify-start">
         {info.map((item,index)=>{
 
           return(
-            <div key={index} onClick={()=>{setActiveTabIndex(index)}} className="w-20 bg-gray-300 rounded-md  text-center hover:translate-y-2 cursor-pointer transition-all duration-300   py-2  text-white">
+            <div key={index} onClick={()=>{setActiveTabIndex(index)}} className="w-20  drop-shadow-md bg-gray-300 rounded-md  text-center hover:translate-y-2 cursor-pointer transition-all duration-300   py-2  text-white">
             <p className="w-full text-xs mt-2 line-clamp-2 font-semibold text-accent">
               {item.title}
             </p>
