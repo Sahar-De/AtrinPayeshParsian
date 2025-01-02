@@ -18,7 +18,7 @@ const ServiceCard = ({title,link,icon}) => {
             </div>
             <div className="pt-5 text-base font-semibold leading-7">
                 <p>
-                    <Link href={link}  className="text-lightGreen transition-all duration-300 group-hover:text-primary">
+                    <Link href={link}   className="text-lightGreen transition-all duration-300 group-hover:text-primary">
                     اطلاعات بیشتر
                     &larr;
                     </Link>

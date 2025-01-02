@@ -23,7 +23,7 @@ const items=[
     },
     {
         title:"محیط زیست ",
-        href:"/service?id=4",
+        href:{pathname:"/service",query:{id:"4"}},
         icon:<FaLeaf className='h-10 w-10 text-white transition-all  group-hover:text-primary'/>
     }
 ]

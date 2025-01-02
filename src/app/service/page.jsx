@@ -1,23 +1,22 @@
 "use client"
 
 import React from "react";
+import { useRouter } from "next/navigation";
 import { Suspense } from "react";
-import { useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import ServiceDetails from "@/components/serviceDetail";
 
-const Service=()=>{
-  
-  const router=useSearchParams();
-  const id=router.get("id");
+const Service=({searchParam})=>{
+
+  //const path=useSearchParams();
+  //const id=path.get("id");
 
 
    return(
      <div className="bg-accent">
-      {id?(<Suspense fallback={<div>Loading service details...</div>}>
-        <ServiceDetails id={id}/>
-      </Suspense>):(
-        <div>No service ID provided.</div> // Handle case where id is not available
-      )} 
+      
+        <ServiceDetails id={""}/>
+     
     </div>
     )
 }
