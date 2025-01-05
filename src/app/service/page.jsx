@@ -6,7 +6,7 @@ import { Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
 import ServiceDetails from "@/components/serviceDetail";
 
-const Service=({searchParam})=>{
+const Service=()=>{
 
   //const path=useSearchParams();
   //const id=path.get("id");
