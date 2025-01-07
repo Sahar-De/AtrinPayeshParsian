@@ -9,7 +9,7 @@ const Information = () => {
     
     <section className="bg-white py-16">
       <div className="container flex flex-col md:flex-row gap-5 md:gap-6 min-h-[660px]">
-        <motion.div viewport={{once:true}} initial={{opacity:0 , x:-40}} whileInView={{opacity:1, x:1}} transition={{duration:0.3, delay:0.5 ,easeIn:"easeIn" }} className="bg-[url('../../public/assets/why-is-hse-needed.webp')]  bg-no-repeat bg-center w-full ">
+        <motion.div viewport={{once:true}} initial={{opacity:0 , x:-40}} whileInView={{opacity:1, x:1}} transition={{duration:0.8, delay:0.5 ,easeIn:"easeIn" }} className="bg-[url('../../public/assets/why-is-hse-needed.webp')]  bg-no-repeat bg-center w-full ">
 
         </motion.div>
         <div className="text-dark text-right flex flex-col items-stretch gap-5">
