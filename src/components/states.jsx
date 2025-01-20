@@ -2,7 +2,7 @@
 import CountUp from "react-countup"
 import Image from "next/image"
 import { delay, motion,easeInOut } from "framer-motion"
-import pic from "../../public/assets/hse-2-min.JPG"
+
 
 const states=[
   {
