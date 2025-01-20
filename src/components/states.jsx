@@ -29,7 +29,7 @@ const States = () => {
       <div className="container mx-auto">
         <div className="relative ">
 
-            <div className=" h-[350px] rounded-md bg-no-repeat bg-cover bg-top"></div> 
+            <div className="bg-[url('../../public/assets/hse-2-min.jpg')] h-[350px] rounded-md bg-no-repeat bg-cover bg-top"></div> 
             
             <motion.div viewport={{once:true}} initial={{opacity:0}} whileInView={{opacity:1}} transition={{delay:0.5, duration:0.9, easeInOut}} className="flex flex-col top-2/3 absolute right-1/2 translate-x-1/2 w-[90%] md:flex-row gap-6 max-w-[80vm] md:max-w-none p-5 md:p-16 md:rounded-md md:drop-shadow-lg md:bg-white/70">
               {states.map((item,index)=>{return(<motion.div viewport={{once:true}} initial={{y:50}} whileInView={{y:0, transition:{delay:index*0.2 , duration:0.9 , ease:"easeIn"}}} className="flex flex-1 gap-4 items-center bg-accent md:justify-center py-4 rounded-md" key={index}>
