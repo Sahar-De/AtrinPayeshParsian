@@ -7,9 +7,9 @@ const ServiceCard = ({title,link,icon}) => {
     
     <div
         className="group rightToLeft relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl w-full sm:mx-auto md:max-w-xs rounded-lg sm:px-10">
-        <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-lightGreen transition-all duration-300 group-hover:scale-[10]"></span>
+        <span className="absolute top-10 z-0 h-20 w-20 rounded-full bg-accent transition-all duration-300 group-hover:scale-[10]"></span>
         <div className="relative z-10 mx-auto max-w-md">
-            <span className="grid h-20 w-20 place-items-center rounded-full bg-lightGreen transition-all duration-300 group-hover:bg-lightGreen">
+            <span className="grid h-20 w-20 place-items-center rounded-full bg-accent-hover transition-all duration-300 group-hover:bg-accent-hover">
                {icon}
             </span>
             <div

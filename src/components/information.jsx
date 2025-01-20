@@ -5,6 +5,8 @@ import { delay, easeIn, motion } from "framer-motion"
 import { FaLeaf } from "react-icons/fa";
 
 const Information = () => {
+
+  
   return (
     
     <section className="bg-white py-16">
@@ -13,6 +15,9 @@ const Information = () => {
 
         </motion.div>
         <div className="text-dark text-right flex flex-col items-stretch gap-5">
+          <p>
+
+          </p>
           <h3 className="font-bold text-2xl pb-5">اتخاذ مدیریت سلامت ایمنی و محیط زیست با استفاده از فناوریهای نوآورانه</h3>
           <h4 className="text-accent-hover size-20l font-semibold">چرا مهندسی ایمنی برای محل کار ضرورت دارد؟</h4>
           

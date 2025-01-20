@@ -19,6 +19,14 @@ const links=[
     {
         name:"خدمات",
         path:"/service",
+    },
+    {
+        name:"پروژهها",
+        path:"/service",
+    },
+    {
+        name:"بازرگانی",
+        path:"/service",
     }
 ]
 

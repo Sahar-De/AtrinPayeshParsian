@@ -8,8 +8,8 @@ import ServiceDetails from "@/components/serviceDetail";
 
 const Service=()=>{
 
-  //const path=useSearchParams();
-  //const id=path.get("id");
+  const path=useSearchParams();
+  const id=path.get("id");
 
 
    return(

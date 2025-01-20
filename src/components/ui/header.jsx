@@ -49,15 +49,15 @@ const Header=()=>{
                 <div className="px-2.5 mx-auto  flex justify-between">
                 <div className="text-sm leading-8 text-primary sm:text-dark flex items-center justify-start  gap-5">
                     <div className="flex items-center justify-center gap-1 ">
-                        <FaEnvelope/><i>info@atrin.com</i>
+                        <FaEnvelope/><i className="md:text-xl">info@atrin.com</i>
                     </div>
                     <div className="flex items-center justify-center gap-1 ">
-                        <FaPhoneSquareAlt/><i>021-22656754</i>
+                        <FaPhoneSquareAlt/><i className="md:text-xl">021-22656754</i>
                     </div>
                     
                 </div>
                 <p className="text-right text-sm md:text-lg hidden sm:block  text-primary p-1">
-                    حرفه‌ای ترین خدمات در زمینه QHSE را از ما بخواهید
+                    حرفه‌ای ترین خدمات در زمینه  را از ما بخواهید
                 </p>
                 </div>
             </div>
@@ -71,9 +71,9 @@ const Header=()=>{
             <Image
                     alt="" 
                     src={logo}
-                    width={100} 
+                    width={120} 
                     className="ml-2 bg-blend-lighten"/>
-                <h1 className="hidden sm:block text-md text-accent font-semibold ">ATRIN 
+                <h1 className="hidden sm:block text-2xl text-accent font-bold ">ATRIN 
                 </h1>
                 
             </Link>

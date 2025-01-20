@@ -12,7 +12,7 @@ const items=[
         icon:<FaGear className='h-10 w-10 text-white transition-all group-hover:text-primary'/>
     },
     {
-        title:"سلامت ",
+        title:"آلاینده سنجی ",
         href:"/service?id=2",
         icon:<MdOutlineHealthAndSafety className='h-10 w-10 text-white transition-all  group-hover:text-primary'/>
     },
