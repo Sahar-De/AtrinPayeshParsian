@@ -2,7 +2,7 @@ import React from "react"
 import serviceData from "../service.json";
 import { FaHelmetSafety } from "react-icons/fa6";
 
-const ServiceDetails = ({id}) => {
+const ServiceList = ({id}) => {
 
   
   const filterData=id!==null?serviceData.filter(item=>item.parentId===id):serviceData.filter(item=>item.parentId=="");
@@ -38,4 +38,4 @@ const ServiceDetails = ({id}) => {
   )
 }
 
-export default ServiceDetails
+export default ServiceList

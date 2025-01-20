@@ -4,7 +4,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import { Suspense } from "react";
 import { usePathname, useSearchParams } from "next/navigation";
-import ServiceDetails from "@/components/serviceDetail";
+import ServiceList from "@/components/serviceList";
 
 const Service=()=>{
 
@@ -15,7 +15,7 @@ const Service=()=>{
    return(
      <div className="bg-accent">
       
-        <ServiceDetails id={""}/>
+        <ServiceList id={""}/>
      
     </div>
     )

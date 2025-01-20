@@ -8,22 +8,22 @@ import { FaGear } from "react-icons/fa6";
 const items=[
     {
         title:"بهبود کیفیت",
-        href:"/service?id=1",
+        href:"/1",
         icon:<FaGear className='h-10 w-10 text-white transition-all group-hover:text-primary'/>
     },
     {
         title:"آلاینده سنجی ",
-        href:"/service?id=2",
+        href:"/2",
         icon:<MdOutlineHealthAndSafety className='h-10 w-10 text-white transition-all  group-hover:text-primary'/>
     },
     {
         title:" ایمنی",
-        href:"/service?id=3",
+        href:"/3",
         icon:<FaHelmetSafety className='h-10 w-10 text-white transition-all  group-hover:text-primary'/>
     },
     {
         title:"محیط زیست ",
-        href:{pathname:"/service",query:{id:"4"}},
+        href:"/4",
         icon:<FaLeaf className='h-10 w-10 text-white transition-all  group-hover:text-primary'/>
     }
 ]
