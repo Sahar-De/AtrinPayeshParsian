@@ -8,13 +8,13 @@ const sId=use(params).id;
 
   return (
     <section className="bg-accent">
-        <div className="container mx-auto p-5 sm:p-10 md:p-16 relative">
+        <div className=" mx-auto relative">
             <div
-                className="bg-cover bg-center text-center overflow-hidden bg-[url('../../public/assets/hseBanner.jpg')]    "
+                className="bg-cover bg-center text-center overflow-hidden bg-[url('../../public/assets/hse4.jpg')] "
                 style={{
                 minHeight: 500,
                 }}
-                title="Woman holding a mug">
+                title="Hse">
 
             </div>
             <div className="w-4/5 mx-auto">
