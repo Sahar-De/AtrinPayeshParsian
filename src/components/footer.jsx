@@ -29,7 +29,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="text-dark w-80">{info.about}</div>
+        <div className="text-dark sm:w-80">{info.about}</div>
         <div>
           <p className="font-semibold text-accent dark:text-white">
             لینک سریع
