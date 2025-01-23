@@ -7,7 +7,7 @@ import { use } from "react";
 const sId=use(params).id;
 
   return (
-    <section className="bg-accent p-5">
+    <section className="bg-accent">
         <div className=" mx-auto relative">
             <div
                 className="bg-cover bg-center text-center overflow-hidden bg-[url('../../public/assets/hse4.jpg')] "

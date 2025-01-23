@@ -16,26 +16,7 @@ import { FaPhoneSquareAlt } from "react-icons/fa";
 const Header=()=>{
    return(
    <header className="py-1 text-dark flex flex-col">
-    {/*<div className="flex justify-between ">
-            <div className=" pl-5  text-sm leading-8 text-white sm:text-dark flex items-center justify-start  gap-5">
-                <div className="flex items-center justify-center gap-1 ">
-                     <FaEnvelope/><i>info@atrin.com</i>
-                </div>
-                <div className="flex items-center justify-center gap-1">
-                     <FaPhoneSquareAlt/><i>021-22656754</i>
-                </div>
-                
-            </div>
-            <div className="hidden sm:flex bg-gradient-to-l from-accent to-accent-hover sm:clip-custome  justify-end  p-2 md:w-2/3 h-[65px]">
-                <span className="bg-accent-hover h-full w-full md:w-2/3 sm:clip-custome  text-primary p-1">
-                    <p className="text-right text-sm md:text-lg">
-                    حرفه‌ای ترین خدمات در زمینه QHSE را از ما بخواهید
-                    </p>
-                </span>
-                
-            </div>
-           
-        </div>*/}
+   
 
 
         <div className="relative border-b-4 border-accent flex">
