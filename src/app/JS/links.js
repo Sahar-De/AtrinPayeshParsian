@@ -15,24 +15,37 @@ export const Links=[
         subGroupLinks:[]
     },
     {
-        name:"خدمات",
+        name:"خدمات ایمنی",
         path:"/service",
         subGroupLinks:[
-            {name:" تجهیزات بازرسی فنی",path:"/"},
-            {name:"مستندات بازرسی فنی",path:"/"},
-            {name:"مخازن و دیگهای بخار",path:"/"},
-            {name:"آسانسور و پله برقی",path:"/"},
-            {name:"جرثقیل",path:"/"},
-            {name:"لیفتراک",path:"/"},
-            {name:"سیم بکسل و تجهیزات باربری",path:"/"},
-            {name:"کالا",path:"/"},
+            {name:" تجهیزات بازرسی فنی",path:"/31"},
+            {name:"مستندات بازرسی فنی",path:"/33"},
+            {name:"مخازن و دیگهای بخار",path:"/32"},
+            {name:"آسانسور و پله برقی",path:"/34"},
+            {name:"جرثقیل",path:"/35"},
+            {name:"لیفتراک",path:"/36"},
+            {name:"سیم بکسل و تجهیزات باربری",path:"/38"},
+            {name:"کالا",path:"/37"},
 
+        ]
+    },
+
+    {
+        name:"بهبود کیفیت",
+        path:"/service",
+        subGroupLinks:[
+            {name:"مشاوره و استقرار سیستم های مدیریت ریسک",path:"/11"},
+            {name:"ارزیلبی مدیریت ریسک",path:"/12"},
+            {name:"مدیریت بحران",path:"/13"},
+            {name:"استانداردها",path:"/14"},
+            {name:"آموزش",path:"/15"},
+            {name:"مستندات",path:"/16"}
         ]
     },
     {
         name:"پروژه ها",
         path:"/service",
-        subGroupLinks:[{name:" پروژه 1",path:"/"},{name:"2پروژی ",path:"/"}]
+        subGroupLinks:[]
     },
     {
         name:"بازرگانی",
@@ -49,12 +62,11 @@ export const Links=[
         name:"آلاینده سنجی",
         path:"/service",
         subGroupLinks:[
-            {name:"سنجش و کنترل آلایتده های صنعتی",path:"/"},
-            {name:"صدا",path:"/"},
-            {name:"ارگونومی",path:"/"},
-            {name:"عوامل شیمیایی",path:"/"},
-            {name:"مهندسی روشنایی",path:"/"},
-            {name:"تجهیزات اندازه گیری",path:"/"},
+            {name:"سنجش و کنترل آلایتده های صنعتی",path:"/22"},
+            {name:"صدا",path:"/23"},
+            {name:"ارگونومی",path:"/21"},
+            {name:"عوامل شیمیایی",path:"/24"},
+            {name:"تهویه صنعتی",path:"/25"},
         ]
     }
 ]

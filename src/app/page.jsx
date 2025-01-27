@@ -19,6 +19,7 @@ import { MdCleanHands } from "react-icons/md";
 import { delay, easeInOut, motion } from "framer-motion"
 import Techniqual from "@/components/techniqualService"
 import { Policy } from "@/components/Policy"
+import ProjectSlider from "@/components/slider"
 
 
 const containerVariants = {
@@ -126,6 +127,7 @@ const Home = () => {
       <Policy/>
       <Information/>
       <Techniqual servicInfo={Tservices}/>
+      <ProjectSlider/>
     </>
     
   )

@@ -14,7 +14,7 @@ const ServiceList = () => {
   const filterData=serviceData.filter(item=>item.parentId=="");
 
   return (
-      <div className="grid grid-cols-2 container place-items-stretch gap-y-5 py-5" style={{direction:"rtl"}}>
+      <div className="grid grid-cols-1 sm:grid-cols-2 container place-items-stretch gap-y-5 py-5" style={{direction:"rtl"}}>
             {filterData.map((item,index)=>{
               return (
               <motion.div key={index} initial={{opacity:0, x:60}} whileInView={{opacity:1,x:0}} transition={{delay:0.5*index, duration:0.5, easeInOut}} className="flex bg-gray-100 gap-2  mb-8 md:mb-0 p-5 shadow-md rounded-md mr-3 ml-3">
