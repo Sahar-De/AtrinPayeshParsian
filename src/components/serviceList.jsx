@@ -17,7 +17,7 @@ const ServiceList = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 container place-items-stretch gap-y-5 py-5" style={{direction:"rtl"}}>
             {filterData.map((item,index)=>{
               return (
-              <motion.div key={index} initial={{opacity:0, x:60}} whileInView={{opacity:1,x:0}} transition={{delay:0.5*index, duration:0.5, easeInOut}} className="flex bg-gray-100 gap-2  mb-8 md:mb-0 p-5 shadow-md rounded-md mr-3 ml-3">
+              <motion.div viewport={{once:true}} key={index} initial={{opacity:0, x:60}} whileInView={{opacity:1,x:0}} transition={{delay:0.5*index, duration:0.5, easeInOut}} className="flex bg-gray-100 gap-2  mb-8 md:mb-0 p-5 shadow-md rounded-md mr-3 ml-3">
                   <div className="w-2/3 text-right">
                     <h6 className="text-black font-semibold text-lg">{item.name}</h6>
                     <p className="text-md  text-gray-800 text-right leading-normal mb-5 font-lf-normal break-words ">

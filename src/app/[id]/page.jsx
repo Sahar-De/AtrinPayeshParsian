@@ -5,18 +5,12 @@ import serviceData from "../../service.json";
 
  const  ServiceDetails = ({params}) => {
 
-const [isParent,setIsparent]=useState(false);
+
 
 const sId=use(params).id;
 const service=serviceData.filter(s=>s.parentId==sId);
 const serviceItem=serviceData.find(s=>s.id===sId);
-if(service.length>0){
-    
-    setIsparent(true)
-}
-else {
-    setIsparent(false)
-}
+
 
   return (
     <section className="bg-accent pb-5">
