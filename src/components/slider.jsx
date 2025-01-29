@@ -1,5 +1,6 @@
 "use client"
 import React from "react"
+import {info} from "@/app/JS/info"
 
 import {Swiper,SwiperSlide} from "swiper/react"
 import SlideItem from "./slideItem"
@@ -45,8 +46,11 @@ const ProjectSlider = () => {
   return (
     <section className="py-10">
     <h3 className="h3 text-center text-accent py-5">پروژه های انجام شده</h3>
-          <div className="container py-5">
+        <h5 className="text-accent-hover text-center text-xl py-5">نیاز به مشاوره جهت خدمات دارید؟ با این شماره ها در تماس باشید</h5>
+        <p className="text-dark font-semibold text-xl text-center">{info.phone}-{info.mobile}</p>
+          <div className="p-5">
         <Swiper
+           className="mySwiper"
             modules={[Navigation,Pagination,Autoplay]}
             pagination={{type:"fraction"}}
             navigation={true}

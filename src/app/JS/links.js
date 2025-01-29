@@ -15,6 +15,18 @@ export const Links=[
         subGroupLinks:[]
     },
     {
+        name:"آلاینده سنجی",
+        path:"/service",
+        subGroupLinks:[
+            {name:"سنجش و کنترل آلایتده های صنعتی",path:"/22"},
+            {name:"صدا",path:"/23"},
+            {name:"ارگونومی",path:"/21"},
+            {name:"عوامل شیمیایی",path:"/24"},
+            {name:"تهویه صنعتی",path:"/25"},
+        ]
+    }
+    ,
+    {
         name:"خدمات ایمنی",
         path:"/service",
         subGroupLinks:[
@@ -57,16 +69,5 @@ export const Links=[
         path:"/service",
         subGroupLinks:[]
     }
-    ,
-    {
-        name:"آلاینده سنجی",
-        path:"/service",
-        subGroupLinks:[
-            {name:"سنجش و کنترل آلایتده های صنعتی",path:"/22"},
-            {name:"صدا",path:"/23"},
-            {name:"ارگونومی",path:"/21"},
-            {name:"عوامل شیمیایی",path:"/24"},
-            {name:"تهویه صنعتی",path:"/25"},
-        ]
-    }
+    
 ]
