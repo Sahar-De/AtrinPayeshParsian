@@ -22,7 +22,7 @@ const Aheader = () => {
                         viewport={{ once: true }}
                         className="w-full lg:w-1/3"
                     >
-                        <div className="relative h-[480px] w-full mx-auto">
+                        <div className="relative h-[480px]  w-full mx-auto">
                             <Image
                                 src={p}
                                 alt="Atrin Payesh Parsian"

@@ -31,7 +31,7 @@ const items=[
 const CardsHolder = () => {
   return (
     <section id="CardsHolder" className="pb-16 bg-[url('../../public/assets/CurveLineBg.svg')] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center">
-        <h3 className="text-3xl text-accent  text-justify py-5 px-5 mt-5 mb-16">بهترین خدمات را در شرکت ما تجربه کنید</h3>
+        <h3 className="text-2xl md:text-3xl font-bold text-accent mb-6">بهترین خدمات را در شرکت ما تجربه کنید</h3>
         <div className="container mx-auto flex gap-6 items-center justify-center flex-wrap">
             
             {items.map((card,index)=>{
