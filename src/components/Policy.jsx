@@ -30,20 +30,12 @@ const text2="خط مشی ایمنی و بهداشت محیط زیست  باید 
 
         <div className="container mx-auto pb-16 px-4 sm:px-6 lg:px-8 ">
                 <div className=''> 
-                    <h2 className="text-3xl font-bold text-accent  mb-4 text-center ">سیاست های کلی آترین پایش پارسیان</h2>
-                     <p className='text-center text-dark'>
-                        {text1}
-                        <br/>
-                        {text2}
-                    </p>
+                    <h2 className="text-3xl font-bold text-accent  mb-4 text-center ">آترین پایش پارسیان اهداف</h2>
+                     
                 </div>
-                <div className="flex justify-center my-10 h3 text-accent">چرا آترین پایش پارسیان؟</div>
-                <div className=" flex flex-col sm:flex-row  mx-auto">
-                    <motion.div viewport={{once:true}} className="w-full sm:w-1/2 flex-shrink-0 " initial={{opacity:0, x:-60}} whileInView={{opacity:1, x:0}} transition={{duration:1, delay:1}}>
-                        <Image src={pic} alt="AtrinPayeshParsian" className="w-full shadow-md rounded-md" />
-                    </motion.div>
-                    <motion.div viewport={{once:true}} className="flex sm:relative w-full h-[700px] sm:w-1/2 flex-wrap text-center justify-end sm:justify-center" variants={containerBox} initial="hidden" whileInView="visible" >
-                        <motion.div  viewport={{once:true}} variants={topItem} initial="hidden" whileInView="visible" className=" sm:absolute right-0 sm:w-1/2">
+                <div className=" mx-auto">
+                    <motion.div viewport={{once:true}} className="flex w-full text-center " variants={containerBox} initial="hidden" whileInView="visible" >
+                        <motion.div  viewport={{once:true}} variants={topItem} initial="hidden" whileInView="visible" className="basis-1/4  ">
                             <div className="px-4 flex flex-col items-end group py-6 transform transition duration-500 hover:scale-110">
                                 <div className="flex justify-center">
                                    <FaUsersGear className="size-20 mb-5 transition duration-200 bg-accent-hover border p-3 rounded-md group-hover:bg-accent group-hover:rounded-full group-hover:rotate-[360deg] group-hover:shadow-md"/>
@@ -56,7 +48,7 @@ const text2="خط مشی ایمنی و بهداشت محیط زیست  باید 
                                 </p>
                             </div>
                         </motion.div>
-                        <motion.div viewport={{once:true}} variants={topItem} initial="hidden" whileInView="visible" className=" left-0 sm:absolute  sm:w-1/2">
+                        <motion.div viewport={{once:true}} variants={topItem} initial="hidden" whileInView="visible" className="basis-1/4 ">
                             <div className="px-4 flex flex-col items-end group py-6 transform transition duration-500 hover:scale-110">
                                 <div className="flex justify-center">
                                     <MdHighQuality className="size-20 mb-5  transition duration-200 bg-accent-hover border p-3 rounded-md group-hover:bg-accent group-hover:rounded-full group-hover:rotate-[360deg] group-hover:shadow-md"/>
@@ -69,7 +61,7 @@ const text2="خط مشی ایمنی و بهداشت محیط زیست  باید 
                                 </p>
                             </div>
                         </motion.div>
-                        <motion.div  viewport={{once:true}} variants={bottomItem} initial="hidden" whileInView="visible" className=" sm:absolute right-0 sm:w-1/2">
+                        <motion.div  viewport={{once:true}} variants={bottomItem} initial="hidden" whileInView="visible" className=" basis-1/4 ">
                             <div className="px-4 flex flex-col items-end group py-6 transform transition duration-500 hover:scale-110">
                                 <div className="flex justify-center">
                                     <GiReceiveMoney className="size-20 mb-5 transition duration-200 bg-accent-hover border p-3 rounded-md group-hover:bg-accent group-hover:rounded-full group-hover:rotate-[360deg] group-hover:shadow-md"/>
@@ -82,7 +74,7 @@ const text2="خط مشی ایمنی و بهداشت محیط زیست  باید 
                                 </p>
                             </div>
                         </motion.div>
-                        <motion.div viewport={{once:true}} variants={bottomItem} initial="hidden" whileInView="visible" className=" sm:absolute left-0  sm:w-1/2">
+                        <motion.div viewport={{once:true}} variants={bottomItem} initial="hidden" whileInView="visible" className=" basis-1/4 ">
                             <div className="px-4 flex flex-col items-end group py-6 transform transition duration-500 hover:scale-110">
                                 <div className="flex justify-center">
                                     <BiSupport className="size-20 mb-5 transition duration-200 bg-accent-hover border p-3 rounded-md group-hover:bg-accent group-hover:rounded-full group-hover:rotate-[360deg] group-hover:shadow-md"/>

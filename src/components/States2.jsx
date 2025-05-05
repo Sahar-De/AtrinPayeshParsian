@@ -2,45 +2,41 @@
 import CountUp from "react-countup"
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { TfiCup } from "react-icons/tfi";
+import { PiCalendarStarFill } from "react-icons/pi";
+import { FaHandsHelping } from "react-icons/fa";
+import { BsRocket } from "react-icons/bs";
 
 const states = [
     {
         num: 8,
         text: "سال تجربه",
-        icon: "📅"
+        icon: <PiCalendarStarFill />
     },
     {
         num: 200,
         text: "پروژه موفق",
-        icon: "🏆"
+        icon: <TfiCup />
     },
     {
         num: 200,
         text: "همکاری با شرکتها",
-        icon: "🤝"
+        icon: <FaHandsHelping />
     },
     {
         num: 100,
         text: "پروژه در حال انجام",
-        icon: "🚀"
+        icon: <BsRocket />
     }
 ]
 
 const States2 = () => {
     return (
-        <section id="states" className="py-16 md:py-24 bg-gradient-to-b from-white to-[#f3f4f6]">
+        <section id="states" className="py-16 md:py-24  bg-[url('../../public/assets/consulting-hse-3.jpg')]  bg-no-repeat bg-top ">
             <div className="container mx-auto px-4">
                 {/* Background Image Section */}
                 <div className="relative rounded-xl overflow-hidden h-64 md:h-96 w-full">
-                    <Image
-                        src="/assets/work1.jpg"
-                        alt="پروژه های موفق"
-                        fill
-                        className="object-cover"
-                        quality={90}
-                        priority
-                    />
-                    <div className="absolute inset-0 "></div>
+
                 </div>
 
                 {/* Stats Cards */}
@@ -49,7 +45,7 @@ const States2 = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
                     viewport={{ once: true }}
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 -mt-12 md:-mt-20 relative z-10 px-4"
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 -mt-16 md:-mt-44 relative z-10 px-4"
                 >
                     {states.map((item, index) => (
                         <motion.div
@@ -61,7 +57,7 @@ const States2 = () => {
                             whileHover={{ y: -5, boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1)" }}
                             className="bg-white/90 backdrop-blur-sm rounded-xl p-6 shadow-lg border border-white/20 flex flex-col items-center text-center transition-all duration-300"
                         >
-                            <span className="text-3xl mb-3">{item.icon}</span>
+                            <span className="text-3xl mb-3 text-accent">{item.icon}</span>
                             <CountUp
                                 enableScrollSpy
                                 scrollSpyOnce

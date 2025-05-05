@@ -21,6 +21,8 @@ import { delay, easeInOut, motion } from "framer-motion"
 import Techniqual from "@/components/techniqualService"
 import { Policy } from "@/components/Policy"
 import ProjectSlider from "@/components/slider"
+import WhyChooseUs2 from "@/components/WhychoosUs2"
+import HomeaboutUs from "@/components/HomeaboutUs"
 
 
 const containerVariants = {
@@ -94,23 +96,24 @@ const Home = () => {
 
   return (
     <>
-      <section className="Banner h-full bg-[url('../../public/assets/cp3.svg')] backdrop-blur-sm">
-        <div className="container mx-auto h-full">
-          <div className="flex flex-col md:flex-row items-center justify-around md:pt-8 pb-5 md:pb-10">
+      <section className="Banner h-full bg-[url('../../public/assets/cp3.svg')] md:bg-[url('../../public/assets/hse5-edited.png')] bg-no-repeat bg-cover backdrop-blur-md">
+
+        <div className="container w-full mx-auto  h-full">
+          <div className="flex flex-col md:flex-row items-center justify-around md:pt-8 pb-5 md:pb-10 ">
             {/*title */}
-            <div className="flex flex-col gap-2 text-center  md:text-right order-2 md:order-none">
-              <span className="text-2xl xl:text-2xl mt-10 text-lightGreen">شَرکت مهندسی</span>
-              <h1 className="h1 text-white">آترین پایش پارسیان</h1>
+            <div className="flex flex-col gap-2 text-center  md:text-right order-2 md:order-none ">
+              <span className="text-2xl xl:text-2xl mt-10 text-white md:text-accent">شرکت مهندسی</span>
+              <h1 className="h1 text-white md:text-accent">آترین پایش پارسیان</h1>
               <motion.ul variants={containerVariants} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5, duration: 2, easeInOut }} className="flex flex-col mt-10 text-md md:text-xl gap-8  md:text-right">
-                <motion.li variants={itemVariants} initial="hidden" animate="visible" transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.5 }} className="flex gap-2 text-right justify-end">
+                <motion.li variants={itemVariants} initial="hidden" animate="visible" transition={{ duration: 0.4, ease: 'easeInOut', delay: 1.5 }} className="flex gap-2 text-right font-bold text-white md:text-accent justify-end">
                   دارای گواهینامه صلاحیت ارائه خدمات مهندسی بهداشت حرفه ای
                   <i><svg className="text-lightGreen size-6" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg></i>
                 </motion.li>
-                <motion.li variants={itemVariants} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4, ease: 'easeInOut', delay: 2 }} className="flex gap-2 items-center justify-end">
+                <motion.li variants={itemVariants} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4, ease: 'easeInOut', delay: 2 }} className="flex gap-2 items-center font-bold text-white md:text-accent justify-end">
                   ارائه خدمات آزمایشگاه معتمد محیط زیست
                   <i><svg className="text-lightGreen size-6" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg></i>
                 </motion.li>
-                <motion.li variants={itemVariants} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4, ease: 'easeInOut', delay: 2.5 }} className="flex gap-2 items-center justify-end">
+                <motion.li variants={itemVariants} initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.4, ease: 'easeInOut', delay: 2.5 }} className="flex gap-2 items-center font-bold text-white md:text-accent justify-end">
                   ارائه خدمات مهندسی ایمنی در محیط کار
                   <i><svg className="text-lightGreen size-6" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M11.4669 3.72684C11.7558 3.91574 11.8369 4.30308 11.648 4.59198L7.39799 11.092C7.29783 11.2452 7.13556 11.3467 6.95402 11.3699C6.77247 11.3931 6.58989 11.3355 6.45446 11.2124L3.70446 8.71241C3.44905 8.48022 3.43023 8.08494 3.66242 7.82953C3.89461 7.57412 4.28989 7.55529 4.5453 7.78749L6.75292 9.79441L10.6018 3.90792C10.7907 3.61902 11.178 3.53795 11.4669 3.72684Z" fill="currentColor" fillRule="evenodd" clipRule="evenodd"></path></svg></i>
                 </motion.li>
@@ -122,9 +125,12 @@ const Home = () => {
         </div>
 
       </section>
-      <States2 />
+      <HomeaboutUs />
       <CardsHolder />
+      <States2 />
+
       <WhyUs />
+      <WhyChooseUs2 />
       <Policy />
       <Information />
       <Techniqual servicInfo={Tservices} />
