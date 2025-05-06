@@ -53,19 +53,19 @@ const HomeaboutUs = () => {
                             </div>
                             <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
                                 <div className="flex-col justify-center items-center inline-flex">
-                                    <FaHeartPulse className='text-red-700 size-24' />
+                                    <FaHeartPulse className='text-red-700 size-16 md:size-24' />
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Health
                                     </h6>
                                 </div>
                                 <div className="flex-col justify-center items-center inline-flex">
-                                    <MdHealthAndSafety className='text-accent size-24' />
+                                    <MdHealthAndSafety className='text-accent size-16 md:size-24' />
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Safety
                                     </h6>
                                 </div>
                                 <div className="flex-col justify-center items-center inline-flex">
-                                    <FaCanadianMapleLeaf className='text-lightGreen size-24' />
+                                    <FaCanadianMapleLeaf className='text-lightGreen size-16 md:size-24' />
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Environment
                                     </h6>
