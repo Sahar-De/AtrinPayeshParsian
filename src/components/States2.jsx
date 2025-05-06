@@ -32,7 +32,7 @@ const states = [
 
 const States2 = () => {
     return (
-        <section id="states" className="py-16 md:py-24  bg-[url('../../public/assets/consulting-hse-3.jpg')]  bg-no-repeat bg-top ">
+        <section id="states" className="py-16 md:py-24  bg-[url('../../public/assets/operacionales.webp')] bg-fixed  bg-no-repeat bg-top ">
             <div className="container mx-auto px-4">
                 {/* Background Image Section */}
                 <div className="relative rounded-xl overflow-hidden h-64 md:h-96 w-full">

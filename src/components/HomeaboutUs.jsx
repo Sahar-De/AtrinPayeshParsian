@@ -37,10 +37,14 @@ const HomeaboutUs = () => {
                             </span>
                         </div>
                     </div>
-                    <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                    <div className="relative bg-white w-full p-2 rounded-lg flex-col justify-center lg:items-start items-center gap-10 inline-flex   
+                before:content-[''] before:absolute before:-top-5 before:-right-5 before:w-40 before:h-40 before:bg-accent before:rounded-lg before:-z-10  
+                after:content-[''] after:absolute after:-bottom-5 after:-left-5 after:w-20 after:h-20 after:bg-lightGreen after:rounded-lg after:-z-10">
+
+                        {/* محتوای قبلی بدون تغییر */}
                         <div className="w-full flex-col justify-center items-start gap-8 flex">
                             <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
-                                <h2 className="text-accent text-4xl font-bold  leading-normal lg:text-start text-center">
+                                <h2 className="text-accent text-4xl font-bold leading-normal lg:text-start text-center">
                                     آترین پایش پارسیان
                                 </h2>
                                 <p className="text-gray-500 text-base font-normal leading-loose lg:text-start text-center">
@@ -49,25 +53,19 @@ const HomeaboutUs = () => {
                             </div>
                             <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
                                 <div className="flex-col justify-center items-center inline-flex">
-
                                     <FaHeartPulse className='text-red-700 size-24' />
-
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Health
                                     </h6>
                                 </div>
                                 <div className="flex-col justify-center items-center inline-flex">
-
                                     <MdHealthAndSafety className='text-accent size-24' />
-
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Safety
                                     </h6>
                                 </div>
                                 <div className="flex-col justify-center items-center inline-flex">
-
                                     <FaCanadianMapleLeaf className='text-lightGreen size-24' />
-
                                     <h6 className="text-accent text-lg font-bold leading-relaxed">
                                         Environment
                                     </h6>
@@ -76,9 +74,8 @@ const HomeaboutUs = () => {
                         </div>
 
                         <button className="px-8 py-3 bg-accent hover:bg-accent-dark text-white font-medium rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-                            مطالب بیشتر 
+                            مطالب بیشتر
                         </button>
-
                     </div>
                 </div>
             </div>

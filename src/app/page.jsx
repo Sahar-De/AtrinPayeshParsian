@@ -52,28 +52,32 @@ const Home = () => {
         title: "cleen Room",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <MdCleanHands className="size-10 text-lightGreen" />
+        icon: <MdCleanHands className="size-10 text-lightGreen" />,
+        image:'/assets/hse2.jpg',
       },
       {
         id: "2",
         title: "تهویه و فیلتراسیون صنعتی ",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <FaFan className="size-10 text-lightGreen" />
+        icon: <FaFan className="size-10 text-lightGreen" />,
+        image:'/assets/1-60.jpg',
       },
       {
         id: "3",
         title: "سیستم تصفیه فاضلاب",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <GiWaterRecycling className="size-10 text-lightGreen" />
+        icon: <GiWaterRecycling className="size-10 text-lightGreen" />,
+        image:'/assets/slider2.jpg',
       },
       {
         id: "4",
         title: "مهندسی کنترل صدا",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <FaHeadphones className="size-10 text-lightGreen" />
+        icon: <FaHeadphones className="size-10 text-lightGreen" />,
+        image:'/assets/1-60.jpg',
       },
       ,
       {
@@ -81,7 +85,8 @@ const Home = () => {
         title: "مستندات",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <GrDocumentExcel className="size-10 text-lightGreen" />
+        icon: <GrDocumentExcel className="size-10 text-lightGreen" />,
+        image:'/assets/slider.webp',
       },
       ,
       {
@@ -89,7 +94,8 @@ const Home = () => {
         title: "سیستم اعلان و اطفاع حریق",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         parentId: "",
-        icon: <FaFireExtinguisher className="size-10 text-lightGreen" />
+        icon: <FaFireExtinguisher className="size-10 text-lightGreen" />,
+        image:'/assets/quality.jpg',
       }
 
     ]
