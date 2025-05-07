@@ -22,7 +22,7 @@ const Techniqual = ({ servicInfo }) => {
         <div className="flex flex-col lg:flex-row gap-8 items-stretch">
           {/* بخش تصویر */}
           <div className="relative w-full lg:w-1/2 h-80 lg:h-auto">
-            {/* <div className="absolute inset-0 rounded-xl overflow-hidden shadow-lg z-10">
+            <div className="absolute inset-0 rounded-xl overflow-hidden shadow-lg z-10">
               <AnimatePresence mode="wait">
                 <motion.img
                   key={activeTabIndex}
@@ -35,8 +35,8 @@ const Techniqual = ({ servicInfo }) => {
                   className="w-full h-full object-cover"
                 />
               </AnimatePresence>
-            </div> */}
-
+            </div>
+            
           </div>
 
           {/* بخش محتوا */}
