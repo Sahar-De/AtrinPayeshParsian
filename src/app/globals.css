@@ -88,12 +88,8 @@ body {
   }
   
 
-  .mySwiper{
-    @apply w-full bg-accent rounded-lg
-  }
-  .mySwiper .swiper-pagination{
-      @apply bg-accent text-white w-32 py-1 flex mx-auto items-center shadow-sm translate-y-2 justify-center rounded-t-lg left-1/2 -translate-x-1/2;
-  }
+  
+  
 
   .mySwiper .swiper-button-next{
     @apply bg-accent w-8 h-8 rounded-full
