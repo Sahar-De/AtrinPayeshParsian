@@ -39,7 +39,7 @@ const HomeaboutUs = () => {
                     </div>
                     <div className="relative bg-white w-full p-2 rounded-lg flex-col justify-center lg:items-start items-center gap-10 inline-flex   
                 before:content-[''] before:absolute before:-top-5 before:-right-5 before:w-40 before:h-40 before:bg-accent before:rounded-lg before:-z-10  
-                after:content-[''] after:absolute after:-bottom-5 after:-left-5 after:w-20 after:h-20 after:bg-lightGreen after:rounded-lg after:-z-10">
+                after:content-[''] after:absolute after:-bottom-5 after:-left-5 after:w-40 after:h-40 after:bg-lightGreen after:rounded-lg after:-z-10">
 
                         {/* محتوای قبلی بدون تغییر */}
                         <div className="w-full flex-col justify-center items-start gap-8 flex">
